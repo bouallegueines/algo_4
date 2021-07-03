@@ -1,0 +1,17 @@
+ALGORITHM insertion_sort
+VAR
+ tab: ARRAY_OF INTEGER[4];
+ i,j,k: INTEGER;
+    
+BEGIN
+    j←2
+    WHILE ( j<=longueur(t)) DO
+       i←j-1
+     k←t[j]
+WHILE (i>0 et que t[i]>k) DO
+    t[i+1]←t[i]
+    i←i-1
+END_WHILE
+     t[i+1]←k
+     j←j+1
+  END_WHILE
